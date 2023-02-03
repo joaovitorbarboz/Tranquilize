@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #fff;
+}
+
+.img_logo_header {
+  width: 170px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+}
+
+.header,
+.Navigation_header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.header {
+  height: 56px;
+  justify-content: space-between; /* serve pra distanciar os elementos, logo e menu*/
+  padding: 1.2% 4.5%; /*serve pra falar que a distancia do elemento pra o header em altura é 0 e em largura é 3 */
+}
+
+.Navigation_header {
+  gap: 2.5em;
+}
+
+.Navigation_header a {
+  text-decoration: none;
+  opacity: 0.6;
+  color: gray;
+}
+
+a.active {
+  /* a = especificidade */
+  color: red;
+  font-weight: bold;
+}
+
+.content {
+  color: #1d1d1d;
+  display: flex;
+  gap: 20%;
+}
+
+.texto_content {
+  padding-top: 250px;
+  padding-left: 65px;
+}
+
+.foto_home_page {
+  padding-top: 70px;
+  width: 672px;
+  height: 714px;
+}
+
+.quadro {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.quadro_informacoes {
+  background: #756dd8;
+  margin-top: 70px;
+  margin-bottom: 10px;
+  padding: 4% 5%;
+  text-align: center;
+  color: white;
+  display: flex;
+  border-radius: 15px;
+  justify-content: space-between;
+}
+
+.mapBox {
+  display: flex;
+  width: 90%;
+  height: 500px;
+  padding: 5%;
+  padding-right: 5%;
+  /* background-color: blanchedalmond; */
+}
+
+.mapBox iframe {
+  /* box-shadow: 
+  0px 8px 11px #888,
+  0px 17px 26px #888,
+  0px 6px 32px #888; */
+
+  border-radius: 15px;
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%; /* pq 90 ?*/
+  margin-left: 70px;
+  margin-bottom: 50px;
+  color: #756dd8;
+
+  /* background-color: blanchedalmond; */
+}
+
+.forRow input {
+  padding: 4px;
+  border-radius: 10px;
+  border: 1px solid #888;
+}
+
+.cardes {
+  display: flex;
+  /* justify-content: center;
+  align-items: center;
+  align-content: center;
+  background-color: brown; */
+  margin-bottom: 20px;
+  padding-left: 70px;
+  padding-right: 70px;
+  gap: 5%;
+}
+
+.card {
+  /* background-color: bisque; */
+  width: 371px;
+  height: 466px;
+}
+
+.mediaCard {
+  background: url("https://media.discordapp.net/attachments/680928013617201169/1071074991438839900/image.png?width=396&height=497")
+    center/cover;
+  width: 371px;
+  height: 421px;
+  border-radius: 15px;
+}
+.mediaCard2 {
+  background: url("https://media.discordapp.net/attachments/1010374224667476039/1068720271210582046/image.png?width=395&height=497")
+    center/cover;
+  width: 371px;
+  height: 421px;
+  border-radius: 15px;
+}
+.mediaCard3 {
+  background: url("https://media.discordapp.net/attachments/680928013617201169/1071075094388015185/image.png?width=395&height=497")
+    center/cover;
+  width: 371px;
+  height: 421px;
+  border-radius: 15px;
+}
+.topCard {
+  text-align: center;
+}
+
+.fundo {
+  background: linear-gradient(183.41deg, #aca5fd -8.57%, #756dd8 82.96%);
+  margin-top: 70px;
+  padding: 10%;
+  color: white;
+}
+
+.esquerdaFundo {
+  color: red;
+}
